@@ -14,7 +14,3 @@
     <li>Follow all of Tailwind's best practices</li>
     <li>Put all of my Tailwind skills to the test by building a beautiful Nike landing page</li>
 </ul>
-
-
-
-
