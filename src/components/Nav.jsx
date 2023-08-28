@@ -31,7 +31,7 @@ const Nav = () => {
         <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
           <button className='bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-orange-700'>Create Account</button>
         </div>
-        <div className='hidden max-lg:block'>
+        <div className='hidden max-lg:block hover:cursor-pointer'>
           <img src={hamburger} alt='hamburger icon' width={25} height={25} />
         </div>
       </nav>
