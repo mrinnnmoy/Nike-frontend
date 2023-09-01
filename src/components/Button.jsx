@@ -1,5 +1,3 @@
-import React from "react";
-
 const Button = ({
   label,
   iconURL,
@@ -11,10 +9,11 @@ const Button = ({
   return (
     <button
       className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
-      ${backgroundColor
+      ${
+        backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
-          : "bg-orange-700 text-white border-orange-900"
-        } rounded-full ${fullWidth && "w-full"}`}
+          : "bg-coral-red text-white border-coral-red"
+      } rounded-full ${fullWidth && "w-full"}`}
     >
       {label}
 
